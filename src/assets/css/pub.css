@@ -1,0 +1,423 @@
+/* 工具型全局样式 */
+
+
+/* 初始化CSS */
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+img {
+  border: none;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+select,
+input {
+  vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font: 12px/20px 'Microsoft Yahei', '微软雅黑', 'Simsun', '宋体', 'Arial';
+}
+
+
+/* 页面通用部分 */
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearit {
+  clear: both;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+button {
+  padding: 0;
+}
+
+
+/*mobile*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0
+}
+
+html,
+body,
+form,
+fieldset,
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  -webkit-text-size-adjust: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  clear: all;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none
+}
+
+html {
+  overflow-x: auto;
+  overflow-y: auto;
+  font-size: 50px;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  color: #1a1a1a;
+  background: #f3f3f3;
+  -webkit-text-size-adjust: none;
+  min-width: 320px;
+  width: 100%;
+  /*font: .28rem/1 -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei";
+  font-size: 16px;*/
+  overflow-x: auto;
+  font-family: helvetica, 'Microsoft YaHei', arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal
+}
+
+form {
+  display: inline
+}
+
+textarea {
+  resize: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+ul,
+ol {
+  list-style: none
+}
+
+input,
+select,
+button {
+  /*font-family: 'XinGothic-SinaWeibo','Microsoft YaHei',helvetica,arial,sans-serif;*/
+  font-family: 'Microsoft YaHei', helvetica;
+  font-size: 100%;
+  vertical-align: middle;
+  outline: none;
+  border: none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button
+}
+
+input:focus:-moz-placeholder,
+input:focus::-webkit-input-placeholder {
+  color: transparent
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #3990e6;
+  text-decoration: none;
+}
+
+a:active {
+  color: #aaa;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.hide {
+  display: none!important;
+}
+
+.show {
+  display: block!important;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+.break {
+  word-break: break-all;
+  word-wrap: break-word
+}
+
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  height: 0;
+  clear: both
+}
+
+.clearfix {
+  *zoom: 1
+}
+
+.noScript {
+  margin: 10px;
+  text-align: center;
+  background: #adb9c4;
+  color: #fff;
+  display: block;
+  height: 40px;
+  line-height: 40px
+}
+
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  box-shadow: none;
+  padding: 0.1rem 0.5rem 0.1rem 0.1rem;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+height100 {
+  height: 100%;
+}
+
+
+/*弹性盒子*/
+
+.flex-center,
+.flex-between,
+.flex-around,
+.flex-start,
+.flex-end {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.mt20 {
+  margin-top: 20px;
+}

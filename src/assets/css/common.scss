@@ -1,0 +1,58 @@
+.wrap {
+  height: 100%; // padding: 20px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+// 定义font相关
+@mixin font($fontSize:14px, $color:#333, $textAlign:center, $fontWeight:normal) {
+  font-size: $fontSize;
+  color: $color;
+  text-align: $textAlign;
+  font-weight: $fontWeight;
+}
+
+.btn-group {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .btn {
+    display: block;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.title-two {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+// ul-list样式设置
+.module-list {
+  max-height: calc(100% - 100px);
+  overflow-y: auto;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.module-active {
+  color: #fff;
+  background-color: #2d8cf0;
+  border-radius: 4px;
+}
+
+.layout-header-bar {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  height: 50px!important;
+}
+
+.ivu-message {
+  top: 75px!important;
+}
