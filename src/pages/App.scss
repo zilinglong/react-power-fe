@@ -1,4 +1,6 @@
+$colorset: #eee;
 .app {
-  @include font(16px, #f00);
-  color: $color;
+  // @include font(16px, #f00);
+  // color: $color;
+  background: $colorset;
 }
