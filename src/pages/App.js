@@ -3,7 +3,7 @@ import './App.scss';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app wrap text-align padding20">
       test
     </div>
   );

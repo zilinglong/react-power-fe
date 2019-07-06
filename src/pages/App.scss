@@ -1,11 +1,4 @@
-// 定义font相关
-// @mixin font($fontSize:14px, $color:#333, $textAlign:center, $fontWeight:normal) {
-//   font-size: $fontSize;
-//   color: $color;
-//   text-align: $textAlign;
-//   font-weight: $fontWeight;
-// }
 .app {
-  // $fontSize:14px, $color:#333, $textAlign:center, $fontWeight:normal
   @include font(16px, #f00);
+  color: $color;
 }
