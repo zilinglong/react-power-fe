@@ -1,6 +1,8 @@
-$colorset: #eee;
+@import '~antd/dist/antd.css';
+$colorset: #000;
 .app {
   // @include font(16px, #f00);
   // color: $color;
+  color: $colorset;
   background: $colorset;
 }
