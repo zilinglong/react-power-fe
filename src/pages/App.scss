@@ -1,8 +1,7 @@
 @import '~antd/dist/antd.css';
+@import '../assets/css/common.scss';
 $colorset: #000;
 .app {
-  // @include font(16px, #f00);
-  // color: $color;
-  color: $colorset;
-  background: $colorset;
+  // color: $colorset;
+  height: 100%;
 }

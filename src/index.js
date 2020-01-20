@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/css/pub.css';
 import './assets/css/common.scss';
+// 引入axios配置
+import './config/axios';
 import App from './pages/App';
 import * as serviceWorker from './serviceWorker';
 
